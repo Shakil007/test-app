@@ -1,0 +1,12 @@
+.smart-green
+	= simple_form_for @post, :html => {:multipart => true} do |f|
+		= f.input :image
+		%br
+		= f.input :title
+		%br
+		= f.input :link
+		%br
+		= f.input :description
+		%br
+
+		= f.button :submit
