@@ -2,9 +2,7 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
-# Enable the asset pipeline
-config.assets.enabled = true
-config.assets.paths << "#{Rails.root}/app/assets/fonts" 
+
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
