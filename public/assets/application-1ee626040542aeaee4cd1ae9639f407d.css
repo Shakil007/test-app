@@ -1,0 +1,419 @@
+/*
+
+*/
+/* line 5, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+body {
+  font-family: "Proxima Nova";
+  font-weight: 100;
+}
+
+/* line 9, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+/* line 12, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 16, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 20, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 23, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.button {
+  border: 1px solid #9B9B9B;
+  padding: .7rem 1.25rem;
+  border-radius: .3rem;
+  outline: none;
+  background: white;
+  color: #9B9B9B;
+}
+
+/* line 31, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+header {
+  width: 100%;
+  padding: 2rem 0;
+  border-bottom: 1px solid #E4E4E4;
+}
+/* line 35, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+header #logo {
+  float: left;
+  font-size: 1.75rem;
+}
+/* line 38, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+header #logo a {
+  color: #333233;
+  text-decoration: none;
+}
+/* line 41, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+header #logo a:hover {
+  color: #50A7C7;
+}
+/* line 46, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+header nav {
+  float: right;
+}
+/* line 48, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+header nav a {
+  margin-left: 1.5rem;
+  line-height: 2;
+  color: #9B9B9B;
+  text-decoration: none;
+}
+/* line 53, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+header nav a:hover {
+  color: #50A7C7;
+}
+
+/* line 1, /media/shakil/movie/3rd/muse/app/assets/stylesheets/home.css.scss */
+#intro {
+  margin: 2.75rem 0 1.75rem 0;
+  text-align: center;
+  font-size: 1.75rem;
+  line-height: 1;
+}
+/* line 6, /media/shakil/movie/3rd/muse/app/assets/stylesheets/home.css.scss */
+#intro span {
+  font-size: 1.25rem;
+  color: #9B9B9B;
+}
+
+/* line 12, /media/shakil/movie/3rd/muse/app/assets/stylesheets/home.css.scss */
+#posts .post {
+  background: #F8F9FA;
+  width: 30%;
+  float: left;
+  margin: 1rem 1.5%;
+  border: 1px solid #E4E4E4;
+  border-radius: 0.3rem;
+}
+/* line 19, /media/shakil/movie/3rd/muse/app/assets/stylesheets/home.css.scss */
+#posts .post .post_image {
+  height: 200px;
+  overflow: hidden;
+}
+/* line 22, /media/shakil/movie/3rd/muse/app/assets/stylesheets/home.css.scss */
+#posts .post .post_image img {
+  width: 100%;
+  border-radius: .3rem .3rem 0 0;
+}
+/* line 28, /media/shakil/movie/3rd/muse/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content h2 {
+  margin: 0;
+  font-weight: 100;
+  padding: 1rem 5%;
+  border-bottom: 1px solid #E4E4E4;
+  font-size: 1.25rem;
+}
+/* line 34, /media/shakil/movie/3rd/muse/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content h2 a {
+  text-decoration: none;
+  color: #333233;
+}
+/* line 37, /media/shakil/movie/3rd/muse/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content h2 a:hover {
+  color: #50A7C7;
+}
+/* line 42, /media/shakil/movie/3rd/muse/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content .data {
+  padding: .75rem 5%;
+  color: #969696;
+}
+/* line 45, /media/shakil/movie/3rd/muse/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content .data .username, #posts .post .post_content .data .buttons {
+  margin: 0;
+  font-size: .8rem;
+}
+/* line 49, /media/shakil/movie/3rd/muse/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content .data .username {
+  float: left;
+}
+/* line 52, /media/shakil/movie/3rd/muse/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content .data .buttons {
+  float: right;
+}
+/* line 54, /media/shakil/movie/3rd/muse/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content .data .buttons span {
+  margin-left: .5rem;
+}
+
+/* line 1, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show {
+  padding-top: 2rem;
+}
+/* line 3, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show .post_image_description {
+  width: 50%;
+  float: left;
+  margin-right: 5%;
+}
+/* line 8, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show .post_data {
+  width: 15%;
+  float: left;
+}
+/* line 11, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show .post_data .button {
+  width: 100%;
+  display: inline-block;
+  padding: .75rem 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #969696;
+}
+/* line 19, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show .post_data .button:hover {
+  color: #50A7C7;
+  border: 1px solid #50A7C7;
+}
+/* line 24, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show .post_data .data {
+  width: 100%;
+  display: block;
+  padding: .75rem 0;
+  border-bottom: 1px solid #E9E9E9;
+  text-decoration: none;
+  color: #969696;
+  margin: 0;
+}
+/* line 34, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post {
+  width: 25%;
+  margin-left: 5%;
+  margin-top: -3.2rem;
+  float: left;
+}
+/* line 39, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post h3 {
+  font-size: 1rem;
+}
+/* line 42, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post {
+  background: #F8F9FA;
+  border: 1px solid #E4E4E4;
+  border-radius: 0.3rem;
+}
+/* line 46, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_image {
+  height: 200px;
+  overflow: hidden;
+}
+/* line 49, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_image img {
+  width: 100%;
+  border-radius: .3rem .3rem 0 0;
+}
+/* line 55, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content h2 {
+  margin: 0;
+  font-weight: 100;
+  padding: 1rem 5%;
+  border-bottom: 1px solid #E4E4E4;
+  font-size: 1.25rem;
+}
+/* line 61, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content h2 a {
+  text-decoration: none;
+  color: #333233;
+}
+/* line 64, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content h2 a:hover {
+  color: #50A7C7;
+}
+/* line 69, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content .data {
+  padding: .75rem 5%;
+  color: #969696;
+}
+/* line 72, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content .data .username, #post_show #random_post .post .post_content .data .buttons {
+  margin: 0;
+  font-size: .8rem;
+}
+/* line 76, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content .data .username {
+  float: left;
+}
+/* line 79, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content .data .buttons {
+  float: right;
+}
+/* line 81, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content .data .buttons span {
+  margin-left: .5rem;
+}
+/* line 89, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show h1 {
+  margin: 0;
+  color: #333233;
+}
+/* line 93, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show img {
+  width: 100%;
+  border-radius: .3rem;
+}
+/* line 97, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show .username {
+  color: #969696;
+  margin: 0 0 1.5rem 0;
+}
+/* line 101, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#post_show .description {
+  margin: 2rem 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #969696;
+}
+
+/* line 108, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#comments {
+  padding-bottom: 4rem;
+  width: 50%;
+}
+/* line 111, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#comments .comment_count {
+  border-bottom: 1px solid #E9E9E9;
+  padding-bottom: .5rem;
+  margin-bottom: 0;
+}
+/* line 116, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#comments .comment {
+  padding: 2rem 0;
+  border-bottom: 1px solid #E9E9E9;
+  padding-left: 5%;
+}
+/* line 120, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#comments .comment .username {
+  font-size: 1.3rem;
+  color: #333233;
+  margin: 0 0 .5rem 0;
+}
+/* line 125, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#comments .comment .content {
+  margin: 0;
+  color: #969696;
+}
+/* line 130, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#comments .comment_content {
+  margin-top: 2.5rem;
+}
+/* line 132, /media/shakil/movie/3rd/muse/app/assets/stylesheets/posts.css.scss */
+#comments .comment_content textarea {
+  width: 100%;
+  margin: 1rem 0;
+  min-height: 150px;
+  border: 1px solid #E4E4E4;
+  background: #F8F9FA;
+  border-radius: 0.3rem;
+}
+
+/*######## Smart Green ########*/
+/* line 64, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.smart-green {
+  max-width: 500px;
+  background: #F8F8F8;
+  padding: 30px 30px 20px 30px;
+  font: 12px Arial, Helvetica, sans-serif;
+  color: #666;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+/* line 76, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.smart-green h1 {
+  font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 20px 0px 20px 40px;
+  display: block;
+  margin: -30px -30px 10px -30px;
+  color: #FFF;
+  background: #9DC45F;
+  text-shadow: 1px 1px 1px #949494;
+  border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  border-bottom: 1px solid #89AF4C;
+}
+
+/* line 90, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.smart-green h1 > span {
+  display: block;
+  font-size: 11px;
+  color: #FFF;
+}
+
+/* line 96, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.smart-green label {
+  display: block;
+  margin: 0px 0px 5px;
+}
+
+/* line 100, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.smart-green label > span {
+  float: left;
+  margin-top: 10px;
+  color: #5E5E5E;
+}
+
+/* line 105, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.smart-green input[type="text"], .smart-green input[type="email"], .smart-green input[type="password"], .smart-green textarea, .smart-green select {
+  color: #555;
+  height: 30px;
+  line-height: 15px;
+  width: 100%;
+  padding: 0px 0px 0px 10px;
+  margin-top: 2px;
+  border: 1px solid #E5E5E5;
+  background: #FBFBFB;
+  outline: 0;
+  -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+  box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+  font: normal 14px/14px Arial, Helvetica, sans-serif;
+}
+
+/* line 119, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.smart-green textarea {
+  height: 100px;
+  padding-top: 10px;
+}
+
+/* line 123, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.smart-green select {
+  background: url("down-arrow.png") no-repeat right, -moz-linear-gradient(top, #fbfbfb 0%, #e9e9e9 100%);
+  background: url("down-arrow.png") no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbfbfb), color-stop(100%, #e9e9e9));
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  width: 100%;
+  height: 30px;
+}
+
+/* line 134, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.smart-green .button {
+  background-color: #9DC45F;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-border-radius: 5px;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #949494;
+}
+
+/* line 144, /media/shakil/movie/3rd/muse/app/assets/stylesheets/application.css.scss */
+.smart-green .button:hover {
+  background-color: #80A24A;
+}
